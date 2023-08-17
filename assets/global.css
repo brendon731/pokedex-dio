@@ -1,0 +1,27 @@
+body{
+    height:100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255, 145, 145, 0.267), rgba(125, 161, 125, 0.322));
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width:100%;
+    max-width:968px;
+    margin:auto;
+    padding:1em 0;
+}
+.loadMore{
+    background-color: rgb(255, 96, 96);
+    border:none;
+    color:white;
+    border-radius: 10px;
+    padding:.2em .5em;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin:1em auto;
+}
+.loadMore:hover{
+    filter:grayscale(.3);
+}
